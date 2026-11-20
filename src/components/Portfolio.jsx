@@ -51,7 +51,7 @@ function ImageWrapper({ src, index }) {
     >
       <img
         src={src}
-        alt={`Portfolio ${index + 1}`}
+        alt={`Waspacial Art artwork ${index + 1}`}
         className={PortfolioCSS.image}
         draggable="false"
         decoding="async"

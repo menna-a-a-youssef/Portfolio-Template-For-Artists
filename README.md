@@ -1,6 +1,6 @@
-# Portfolio Template For Artists
+# Waspacial Art - Menna Alaa
 
-A modern React portfolio template for artists, illustrators, photographers, and other visual creators. The project uses Vite for a fast development server, quick production builds, and a lightweight modern toolchain.
+A creative portfolio for Waspacial Art, featuring Menna Alaa's artwork, process, and commission information. The project is built with React and Vite.
 
 ## Highlights
 

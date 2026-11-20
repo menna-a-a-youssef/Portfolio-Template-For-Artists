@@ -7,7 +7,7 @@ function Footer() {
     <footer className={FooterCSS.footer}>
       <div className={FooterCSS.container}>
         <p>{data.FooterText}</p>
-        <p style={{ marginTop: "5px", fontSize: "12px" }}>
+        {/* <p style={{ marginTop: "5px", fontSize: "12px" }}>
           Designed and developed by{" "}
           <a
             href="https://github.com/rakshixh"
@@ -15,7 +15,7 @@ function Footer() {
           >
             rakshixh
           </a>
-        </p>
+        </p> */}
       </div>
     </footer>
   );

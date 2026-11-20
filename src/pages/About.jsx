@@ -33,7 +33,7 @@ function About() {
           {profileImage && (
             <img
               src={profileImage}
-              alt="Artist's Profile"
+              alt="Menna Alaa, artist behind Waspacial Art"
               className={AboutCSS.image}
             />
           )}

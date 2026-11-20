@@ -1,15 +1,15 @@
 const Data = {
-  WebsiteTitle: "Portfolio | Artists",
-  HeaderTitle: "Artist's Portfolio",
-  FooterText: "© 2024 Artist's Portfolio. All rights reserved.",
-  AboutEmail: "Your Email Address",
-  AboutEmailSubject: "Subject of the Email",
-  AboutHeading: "About Me",
+  WebsiteTitle: "Waspacial Art - Menna Alaa",
+  HeaderTitle: "Waspacial Art",
+  FooterText: "© 2026 Waspacial Art - Menna Alaa. All rights reserved.",
+  AboutEmail: "Waspacial@gmail.com",
+  AboutEmailSubject: "Waspacial Art Commission Inquiry",
+  AboutHeading: "About Waspacial",
   AboutTextParagraph1:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "Welcome to Waspacial, the creative hub for art that bursts with energy and explores the depth of space. The name fuses 'Wasp,' representing focused, sharp, and dynamic creative energy, with 'Spacial,' reflecting the dimensional depth of tone and texture in every piece.",
   AboutTextParagraph2:
-    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  AboutButtonText: "Say Hey!",
+    "I’m Menna Alaa, and I share doodles, atmospheric watercolors, detailed charcoal portraits, and modern digital designs. Follow my creative journey through timelapse videos, step-by-step guides, and craft processes, or inquire about a custom portrait or design when commissions are open.",
+  AboutButtonText: "Inquire about a commission",
 };
 
 export default Data;
