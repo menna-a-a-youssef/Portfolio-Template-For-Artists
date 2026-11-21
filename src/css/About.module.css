@@ -36,7 +36,7 @@
 .textWrapper h1 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: white;
+    color: #f4effa;
 }
 
 .textWrapper p {
@@ -44,12 +44,12 @@
     line-height: 1.4;
     margin-bottom: 20px;
     text-align: justify;
-    color: lightgray;
+    color: #d5cce2;
 }
 
 .contactButton {
     padding: 12px 24px;
-    background-color: tomato;
+    background-color: #8d78b8;
     color: white;
     border: none;
     border-radius: 8px;

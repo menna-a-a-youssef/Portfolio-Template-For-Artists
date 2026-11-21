@@ -10,6 +10,13 @@ const Data = {
   AboutTextParagraph2:
     "I’m Menna Alaa, and I share doodles, atmospheric watercolors, detailed charcoal portraits, and modern digital designs. Follow my creative journey through timelapse videos, step-by-step guides, and craft processes, or inquire about a custom portrait or design when commissions are open.",
   AboutButtonText: "Inquire about a commission",
+  SocialLinks: {
+    Instagram: "https://www.instagram.com/waspacial/",
+    Facebook: "https://www.facebook.com/Waspacial/",
+    Threads: "https://www.threads.net/@waspacial",
+    YouTube: "",
+    TikTok: "",
+  },
 };
 
 export default Data;
