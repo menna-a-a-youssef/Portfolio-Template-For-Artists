@@ -1,118 +1,119 @@
 .MainContainer {
-    padding: 20px;
+  padding: var(--space-5);
 }
 
 .container {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: auto;
+  padding: var(--space-7);
+  background-color: var(--color-surface-raised);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-image);
 }
 
 .header {
-    margin-bottom: 30px;
+  margin-bottom: var(--space-7);
 }
 
 .header h1 {
-    color: #333;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+  color: var(--color-text);
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--space-3);
 }
 
 .description {
-    font-weight: 500;
-    color: #555;
-    font-size: 1.1rem;
-    margin-bottom: 20px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-md);
+  margin-bottom: var(--space-5);
 }
 
 .warning {
-    color: #d9534f;
-    font-size: 0.9rem;
-    /* margin-top: 15px; */
-    font-weight: 400;
+  color: #d9534f;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .inputGroup {
-    margin-bottom: 20px;
+  margin-bottom: var(--space-5);
 }
 
 .label {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 5px;
-    display: block;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+  display: block;
 }
 
 .fileInput,
 .input,
 .textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-family: "Aleo", serif;
-    outline: none;
+  width: 100%;
+  padding: var(--space-3);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+  font-family: var(--font-family-base);
+  background: var(--color-surface-raised);
+  color: var(--color-text);
+  outline: none;
 }
 
 .fileInput {
-    border: none;
-    padding: 0;
+  border: none;
+  padding: 0;
 }
 
 .textarea {
-    height: 150px;
+  height: 150px;
 }
 
 .submitButton {
-    padding: 15px 20px;
-    background-color: #222831;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
+  padding: 15px var(--space-5);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-base);
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
+  .container {
+    padding: 15px;
+  }
 
-    .header h1 {
-        font-size: 1.2rem;
-    }
+  .header h1 {
+    font-size: var(--font-size-md);
+  }
 
-    .description {
-        font-size: 0.9rem;
-    }
+  .description {
+    font-size: var(--font-size-sm);
+  }
 
-    .warning {
-        font-size: 0.5rem;
-        text-align: justify;
-    }
+  .warning {
+    font-size: var(--font-size-xs);
+    text-align: justify;
+  }
 
-    .label {
-        font-size: 0.9rem;
-    }
+  .label {
+    font-size: var(--font-size-sm);
+  }
 
-    .fileInput,
-    .input,
-    .textarea {
-        padding: 10px;
-    }
+  .fileInput,
+  .input,
+  .textarea {
+    padding: var(--space-2);
+  }
 
-    .submitButton {
-        padding: 12px 15px;
-        font-size: 0.9rem;
-    }
+  .submitButton {
+    padding: var(--space-3) 15px;
+    font-size: var(--font-size-sm);
+  }
 }

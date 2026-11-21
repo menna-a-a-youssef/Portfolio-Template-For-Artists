@@ -1,14 +1,14 @@
 .scrollToTop {
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-    background-color: #bca6d8;
-    color: #201a2b;
-    padding: 15px;
-    border-radius: 10px;
-    cursor: pointer;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: fixed;
+  bottom: var(--space-7);
+  right: var(--space-5);
+  background-color: var(--color-secondary);
+  color: var(--color-background);
+  padding: 15px;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

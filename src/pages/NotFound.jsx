@@ -44,21 +44,21 @@ const styles = {
     height: "200px",
   },
   title: {
-    fontSize: "2.5rem",
-    margin: "20px 0",
-    color: "lightgrey",
+    fontSize: "var(--font-size-2xl)",
+    margin: "var(--space-5) 0",
+    color: "var(--color-text)",
   },
   message: {
-    fontSize: "1.25rem",
-    color: "grey",
-    marginBottom: "20px",
+    fontSize: "var(--font-size-md)",
+    color: "var(--color-text-muted)",
+    marginBottom: "var(--space-5)",
   },
   homeLink: {
     textDecoration: "none",
-    color: "#007bff",
-    fontSize: "1.25rem",
+    color: "var(--color-primary-hover)",
+    fontSize: "var(--font-size-md)",
     fontWeight: "bold",
-    marginTop: "20px",
+    marginTop: "var(--space-5)",
   },
 };
 
