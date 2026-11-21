@@ -2,13 +2,45 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #201a2b;
+    min-height: 72px;
+    padding: 12px 20px;
+    background: rgba(32, 26, 43, 0.96);
+    border-bottom: 1px solid rgba(188, 166, 216, 0.18);
+    box-sizing: border-box;
     color: white;
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #f4effa;
+    text-decoration: none;
+}
+
+.brandName {
+    font-size: clamp(1.1rem, 3vw, 1.35rem);
+    font-weight: 800;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    width: 46px;
+    height: 46px;
+    display: block;
+    border-radius: 10px;
 }
 
 .hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    padding: 0;
+    background: transparent;
     cursor: pointer;
     z-index: 1001;
 }
@@ -18,19 +50,22 @@
     flex-direction: column;
     position: fixed;
     top: 0;
-    right: -100%;
-    width: 100%;
-    height: 100%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    transform: translateX(100%);
     background-color: #332a43;
-    padding: 0;
+    padding: 24px;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    transition: right 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     z-index: 999;
 }
 
 .navOpen {
-    right: 0;
+    transform: translateX(0);
 }
 
 nav ul {
@@ -51,4 +86,95 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav li {
+    margin: 12px 0;
+}
+
+.navLink {
+    display: block;
+    color: #d5cce2;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 14px 20px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+    color: #ffffff;
+    border-bottom-color: #bca6d8;
+}
+
+.activeNavLink {
+    color: #ffffff;
+    border-bottom: 2px solid #bca6d8;
+}
+
+@media (min-width: 768px) {
+    .container {
+        min-height: 82px;
+        padding: 14px clamp(24px, 5vw, 64px);
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        position: static;
+        top: auto;
+        left: auto;
+        width: auto;
+        height: auto;
+        min-height: auto;
+        transform: none;
+        padding: 0;
+        box-sizing: border-box;
+        background: transparent;
+        flex-direction: row;
+        z-index: auto;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: clamp(12px, 2.5vw, 32px);
+    }
+
+    .nav li {
+        margin: 0;
+    }
+
+    .navLink {
+        display: block;
+        padding: 10px 4px;
+        font-size: 0.95rem;
+        letter-spacing: 0.04em;
+        border-bottom: 2px solid transparent;
+        transition: color 0.2s ease, border-color 0.2s ease;
+    }
+
+    .navLink:hover,
+    .navLink:focus-visible {
+        color: #ffffff;
+        border-bottom-color: #bca6d8;
+    }
+
+    .activeNavLink {
+        border-bottom-color: #bca6d8;
+    }
 }
