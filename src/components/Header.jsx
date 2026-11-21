@@ -78,12 +78,16 @@ function Header() {
       <div className={HeaderCSS.headerActions}>
         <button
           type="button"
-          className={HeaderCSS.themeToggle}
+          className={`${HeaderCSS.themeToggle} ${theme === "light" ? HeaderCSS.themeToggleLight : ""}`}
+          role="switch"
           aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} theme`}
-          aria-pressed={theme === "dark"}
+          aria-checked={theme === "dark"}
           onClick={toggleTheme}
         >
-          <span aria-hidden="true">{theme === "dark" ? "☀️" : "🌙"}</span>
+          <span className={HeaderCSS.themeIcon} aria-hidden="true">
+            {theme === "dark" ? "☾" : "☀"}
+          </span>
+          <span className={HeaderCSS.themeThumb} aria-hidden="true" />
         </button>
         <button
           type="button"
