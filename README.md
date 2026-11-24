@@ -2,6 +2,10 @@
 
 A creative portfolio for Waspacial Art, featuring Menna Alaa's artwork, process, and commission information. The project is built with React and Vite.
 
+## Live Demo
+
+[View the deployed application](https://waspacial.vercel.app/)
+
 ## Highlights
 
 - Vite-based development and build workflow.
